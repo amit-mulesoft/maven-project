@@ -43,7 +43,7 @@ http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/jso
 	
 	<flow name="logFlights">
 		<jms:inbound-endpoint queue="flights" connector-ref="Active_MQ" doc:name="JMS" />
-		<logger level="INFO" doc:name="no luck" message="Amit added more testing#[payload]" />
+		<logger level="INFO" doc:name="no luck yet" message="Amit added more testing#[payload]" />
 	</flow>
 	
 </mule>
